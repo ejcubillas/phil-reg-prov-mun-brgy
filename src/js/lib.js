@@ -33,8 +33,38 @@ let lib = {
     return brgy.filter((val, i) => {
       return val.mun_code == mun_code
     })
-
   },
+
+
+  sort: (arr, sort = 'A') => {
+
+    // A for asc
+    // z for desc
+
+    var sorted = arr.slice(0);
+
+    if (sort == 'A') {
+
+      sorted.sort(function(a,b) {
+        var x = a.name.toLowerCase();
+        var y = b.name.toLowerCase();
+        return x < y ? -1 : x > y ? 1 : 0;
+      });
+
+
+    }else if (sort == 'Z') {
+
+      sorted.sort(function(a,b) {
+        var x = a.name.toLowerCase();
+        var y = b.name.toLowerCase();
+        return y < x ? -1 : y > x ? 1 : 0;
+      });
+
+    }
+
+
+    return sorted;
+  }
 
 }
 

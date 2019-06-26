@@ -1,7 +1,7 @@
 {
-  "name": "philippines-reg-prov-mun-brgy",
-  "version": "1.0.0",
-  "description": "A Node.js library to get the regions, provinces, cities, municipalities and barangays in the Philippines",
+  "name": "phil-reg-prov-mun-brgy",
+  "version": "1.1.0",
+  "description": "A Javascript library to get the regions, provinces, cities, municipalities and barangays in the Philippines",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,9 +15,20 @@
     "Philippines Municipalities",
     "Philippines Barangays",
     "npm",
-    "npm-philippines"
+    "npm-philippines",
+    "Javascript",
+    "node",
+    "js"
   ],
-  "author": "Ernest Jay Cubillas",
+  "author": {
+    "name": "Ernest Jay Cubillas",
+    "email": "email@ejcubillas.com",
+    "url": "http://ejcubillas.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ejcubillas/philippines-reg-prov-mun-brgy"
+  },
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
